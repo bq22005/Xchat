@@ -1,0 +1,9 @@
+.chatForm {
+  margin: 10vh auto;
+  width: 80%;
+  max-width: 500px;
+  height: 80vh;
+  background-color: #f3f3f3;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+}
