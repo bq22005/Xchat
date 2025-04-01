@@ -10,8 +10,10 @@
 }
 
 .textContent {
+  margin: 0 5px;
   padding: 5px;
   width: 45%;
+  font-size: clamp(0.4rem, calc(0.5rem + 0.8vw), 1.2rem);
   background-color: #f8f8f8;
   border: 1px solid #afafaf;
   border-radius: 10px;

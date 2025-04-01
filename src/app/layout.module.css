@@ -40,6 +40,10 @@
   width: 100%;
 }
 
+.main {
+  height: 80%;
+}
+
 .footer {
   position: absolute;
   bottom: 0;

@@ -29,7 +29,9 @@ export default function RootLayout({
               </div>
             </div>
           </header>
-          {children}
+          <div className={styles.main}>
+            {children}
+          </div>
           <footer className={styles.footer}>
             <div className={styles.footerContainer}>
               <div className={styles.items}>
