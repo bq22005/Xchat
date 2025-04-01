@@ -1,11 +1,18 @@
+.body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   position: relative;
-  margin: 10vh auto;
-  width: 80%;
+  margin: 0 auto;
+  width: 100%;
   max-width: 500px;
-  height: 80vh;
-  background-color: #fff;
-  border-radius: 30px;
+  height: 100vh;
+  max-height: 850px;
+  background-color: hsl(0, 0%, 100%);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
   overflow: hidden;
 }
