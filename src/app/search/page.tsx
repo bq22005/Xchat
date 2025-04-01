@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 
-export function Search() {
+export default function Search() {
   return (
     <div className={styles.search}></div>
   );

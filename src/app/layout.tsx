@@ -40,7 +40,7 @@ export default function RootLayout({
                   <a href="/chat"><img className={styles.itemImg} src="/chat.png" alt="chat" /></a>
                 </div>
                 <div className={styles.imgContainer}>
-                  <img className={styles.itemImg} src="/search.png" alt="search" />
+                  <a href="/search"><img className={styles.itemImg} src="/search.png" alt="search" /></a>
                 </div>
               </div>
             </div>
