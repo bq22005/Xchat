@@ -34,10 +34,10 @@ export default function RootLayout({
             <div className={styles.footerContainer}>
               <div className={styles.items}>
                 <div className={styles.imgContainer}>
-                  <img className={styles.itemImg} src="/home.png" alt="home" />
+                  <a href="/"><img className={styles.itemImg} src="/home.png" alt="home" /></a>
                 </div>
                 <div className={styles.imgContainer}>
-                  <img className={styles.itemImg} src="/chat.png" alt="chat" />
+                  <a href="/chat"><img className={styles.itemImg} src="/chat.png" alt="chat" /></a>
                 </div>
                 <div className={styles.imgContainer}>
                   <img className={styles.itemImg} src="/search.png" alt="search" />
