@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className={`${zenMaruGothic.className} ${styles.body}`}>
         <div className={styles.container}>
-          <header>
+          <header className={styles.header}>
             <div className={styles.headerContainer}>
               <div className={styles.logoContainer}>
                 <img className={styles.logo} src="/xchat-logo.png" alt="xchat-logo" />
@@ -30,7 +30,7 @@ export default function RootLayout({
             </div>
           </header>
           {children}
-          <footer>
+          <footer className={styles.footer}>
             <div className={styles.footerContainer}>
               <div className={styles.items}>
                 <div className={styles.imgContainer}>
