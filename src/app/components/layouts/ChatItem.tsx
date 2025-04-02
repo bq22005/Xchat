@@ -4,7 +4,7 @@ import { ChatText } from "@/app/components/layouts/ChatText";
 export function ChatItem() {
   return (
     <div className={styles.chatItem}>
-      <ChatText bgPath="/text-background-right.png">text</ChatText>
+      <ChatText>text</ChatText>
     </div>
   );
 }

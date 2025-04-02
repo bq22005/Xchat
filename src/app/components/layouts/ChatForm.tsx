@@ -1,5 +1,5 @@
 import styles from "./ChatForm.module.css";
-import { ChatContents } from "@/app/components/layouts/ChatContants";
+import { ChatContents } from "@/app/components/layouts/ChatContents";
 import { SendForm } from "@/app/components/layouts//SendForm";
 
 export function ChatForm() {
