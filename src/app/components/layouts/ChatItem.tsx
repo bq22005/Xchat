@@ -1,9 +1,10 @@
 import styles from "./ChatItem.module.css";
+import { ChatText } from "@/app/components/layouts/ChatText";
 
 export function ChatItem() {
   return (
     <div className={styles.chatItem}>
-      <p className={styles.text}>テキスト</p>
+      <ChatText bgPath="/text-background-right.png">text</ChatText>
     </div>
   );
 }

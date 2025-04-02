@@ -3,14 +3,13 @@ import { HTMLAttributes, ReactNode } from "react";
 
 type Props = HTMLAttributes<HTMLParagraphElement> & {
   children: ReactNode;
+  bgPath: string;
 }
 
-export function ChatText({ children, ...props }: Props) {
+export function ChatText({ children, bgPath, ...props }: Props) {
   return (
-    <div className={styles.chatText}>
-      <img src="/text-background-right" alt="text-background">
-        <p className={styles.text} {...props}>{children}</p>
-      </img>
+    <div className={styles.chatText} style={{ "backgroundImage": `url(${bgPath})`} as React.CSSProperties}>
+      <p className={styles.text} {...props}>{children}</p>
     </div>
   );
 }
