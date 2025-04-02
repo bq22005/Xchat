@@ -11,7 +11,7 @@ export function Profile() {
     <div className={styles.profile}>
       <div className={styles.userInfo}>
         <div className={styles.iconContainer}>
-          <img className={styles.userIcon} src={iconPath} alt="user_icon" />
+          <img className={styles.userIcon} src={iconPath} alt="user-icon" />
         </div>
         <p className={styles.userName}>User</p>
       </div>
