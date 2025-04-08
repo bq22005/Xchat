@@ -1,14 +1,27 @@
 .chatText {
-  padding: 0 7px 3px 7px;
-  background-color: #ddd;
-  border-radius: 5px;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  display: flex;
 }
 
-.textBackground {
-  height: 100%;
+.right {
+  flex-direction: row-reverse;
+}
+
+.iconContainer {
+  margin: 0 2%;
+  width: 5%;
+}
+
+.userIcon {
+  width: 100%;
+  border-radius: 50%;
 }
 
 .text {
+  padding: 0 2% 1% 2%;
+  max-width: 50%;
   font-size: clamp(0.4rem, calc(0.6rem + 0.9vw), 1.2rem);
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
+  overflow-wrap: break-word;
 }

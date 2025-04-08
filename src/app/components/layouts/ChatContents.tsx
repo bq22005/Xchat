@@ -5,6 +5,9 @@ export function ChatContents() {
   return (
     <div className={styles.chatContents}>
       <ChatItem />
+      <ChatItem />
+      <ChatItem />
+      <ChatItem />
     </div>
   );
 }
