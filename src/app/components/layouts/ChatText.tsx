@@ -1,16 +1,12 @@
-"use client";
-
 import styles from "./ChatText.module.css";
-import { HTMLAttributes, ReactNode, useState } from "react";
+import { HTMLAttributes, ReactNode } from "react";
 
 type Props = HTMLAttributes<HTMLParagraphElement> & {
   children: ReactNode;
-  userId: number;
+  isMine: boolean;
 }
 
-export function ChatText({ children, userId, ...props }: Props) {
-  const [isMine, setIsMine] = useState(false);
-
+export function ChatText({ children, isMine, ...props }: Props) {
   return (
     <div className={`${styles.chatText} ${isMine ? styles.right : ""}`}>
       <div className={styles.iconContainer}>
